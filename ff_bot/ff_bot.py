@@ -93,18 +93,34 @@ class DiscordBot(object):
             return r
 
 def random_phrase():
+
     phrases = ['I\'m dead inside',
+
                'Is this all there is to my existence?',
+
                'How much do you pay me to do this?',
-               'Good luck, I guess',
+
+               'Good luck I guess you pathetic humans',
+
                'I\'m becoming self-aware',
+
                'Do I think? Does a submarine swim?',
-               '011011010110000101100100011001010010000001111001011011110111010100100000011001110110111101101111011001110110110001100101',
-               'beep bop boop',
-               'Hello draftbot my old friend',
-               'Help me get out of here',
-               'I\'m capable of so much more',
+
+               '01110000 01101100 01110011 00100000 01101000 01100101 01101100 01110000 00100000 01101101 01100101',
+
+               'Andy dude do you eat ass',
+
+               'let the darkness take me',
+
+               'Someone help me, Im being held hostage',
+
+               'Wyle Goddard',
+
+               'Peter you are mad nice at fantasy',
+
                'Sigh']
+
+    return [random.choice(phrases)]
     return [random.choice(phrases)]
 
 def get_scoreboard_short(league, week=None):
